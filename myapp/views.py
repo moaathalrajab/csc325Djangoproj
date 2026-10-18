@@ -3,6 +3,6 @@ from django.shortcuts import render
 
 def home(request):
    return HttpResponse("<h1>Hello, World! This is the home page of my Django application.</h1>") 
-
+prit("Hello, World! This is the home page of my Django application.")  
 def about(request):
     return HttpResponse("<h1>About Page</h1><p>This is the about page of my Django application.</p>")
